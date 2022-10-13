@@ -1,80 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Eva Pointner</title>
-    <link rel="stylesheet" href="./styles/reset.css"/>
-</head>
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
 
-<body>
-    <header>
-        <h1>Hello! My name is <span>Eva Pointner</span>. I'm a Web Developer.</h1>
-        <a href="">Find out more</a>
+  <body>
+    <header class="neutral-theme">
+      <h1>Hello! My name is <span>Eva Pointner</span>. I'm a Web Developer.</h1>
+      <a class="header-link button" href="#about">Find out more</a>
     </header>
     <main>
+      <section class="about primary-theme" id="about">
+        <h2>About Me</h2>
+        <div class="about-container">
+          <img
+            src="./images/origami-birds.webp"
+            alt="Origami birds"
+            class="about-img"
+          />
+          <div class="about.text">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+              itaque corporis vel ex debitis vitae obcaecati tenetur
+              exercitationem suscipit voluptatem, nobis et officia quod in ad
+              illo eligendi consequatur fugiat?
+            </p>
+            <a class="button" href="#">My resume</a>
+          </div>
+        </div>
+        <blockquote>"Yo momma"</blockquote>
+        <cite>Myself</cite>
+      </section>
 
-        <section class="about">
-            <h2>About Me</h2>
-            <div>
-                <img src="./images/origami-birds.webp" 
-                alt="" 
-                width="200">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia itaque corporis vel ex debitis vitae obcaecati tenetur exercitationem suscipit voluptatem, nobis et officia quod in ad illo eligendi consequatur fugiat?
-                </p>
-                <a href="">My resume</a>
-            </div>
-            <blockquote>
-                "Yo momma"
-            </blockquote>
-            <cite>Myself</cite>
-        </section>
-        
-        <section class="projects">
-            <h2>Projects</h2>
-         <article>
-           <h3>Project Title</h3>
-           <p>
-             Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
-             maiores nihil soluta ad at laborum error, quas quaerat quis!
-             Perferendis facilis pariatur libero quas neque magnam quisquam optio
-             quasi itaque
-           </p>
-           <a href="">Source Code</a>
-           <a href="">View Project</a>
-           <img src="./images/origami-birds.webp" alt="project" width="600" />
-         </article>
+      <section class="neutral-theme">
+        <h2>Projects</h2>
+        <article>
+          <div class="article-text">
+            <h3>Project Title</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+              maiores nihil soluta ad at laborum error, quas quaerat quis!
+              Perferendis facilis pariatur libero quas neque magnam quisquam
+              optio quasi itaque
+            </p>
+            <a href="" class="button">See it live</a>
+            <a href="" class="button">Fork it on Github</a>
+          </div>
+          <img
+            src="./images/origami-birds.webp"
+            alt="project"
+            width="600"
+            class="article-img"
+          />
+        </article>
 
-         <article>
-           <h3>Project Title</h3>
-           <p>
-             Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
-             maiores nihil soluta ad at laborum error, quas quaerat quis!
-             Perferendis facilis pariatur libero quas neque magnam quisquam optio
-             quasi itaque
-           </p>
-           <a href="">Source Code</a>
-           <a href="">View Project</a>
-           <img src="./images/origami-birds.webp" alt="project" width="600" />
-         </article>
+        <article>
+          <div class="article-text">
+            <h3>Project Title</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+              maiores nihil soluta ad at laborum error, quas quaerat quis!
+              Perferendis facilis pariatur libero quas neque magnam quisquam
+              optio quasi itaque
+            </p>
+            <a href="" class="button">See it live</a>
+            <a href="" class="button">Fork it on Github</a>
+          </div>
+          <img
+            src="./images/origami-birds.webp"
+            alt="project"
+            width="600"
+            class="article-img"
+          />
+        </article>
 
-         <article>
-           <h3>Project Title</h3>
-           <p>
-             Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
-             maiores nihil soluta ad at laborum error, quas quaerat quis!
-             Perferendis facilis pariatur libero quas neque magnam quisquam optio
-             quasi itaque
-           </p>
-           <a href="">Source Code</a>
-           <a href="">View Project</a>
-           <img src="./images/origami-birds.webp" alt="project" width="600" />
-         </article>
-       </section>
+        <article>
+          <div class="article-text">
+            <h3>Project Title</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+              maiores nihil soluta ad at laborum error, quas quaerat quis!
+              Perferendis facilis pariatur libero quas neque magnam quisquam
+              optio quasi itaque
+            </p>
+            <a href="" class="button">See it live</a>
+            <a href="" class="button">Fork it on Github</a>
+          </div>
+          <img
+            src="./images/origami-birds.webp"
+            alt="project"
+            width="600"
+            class="article-img"
+          />
+        </article>
+      </section>
 
-       <section class="contact">
+      <section class="contact primary-theme">
         <h2>Contact</h2>
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium
@@ -82,17 +108,25 @@
           architecto porro numquam vero minus quas ipsa voluptatem dignissimos
           aliquam magni.
         </p>
-        <a href="mailto:eva_pointner@gmx.at">Let's talk</a>
+        <a href="mailto:eva_pointner@gmx.at" class="button">Let's talk</a>
       </section>
     </main>
     <footer>
-        <ul>
-          <li><a href="">GitHub</a></li>
-          <li><a href="">GitHub</a></li>
-          <li><a href="">GitHub</a></li>
-          <li><a href="">GitHub</a></li>
-        </ul>
-        <p>@2022 - Portfolio Design by Maria Albertina</p>
-      </footer>
-</body>
+      <ul class="social">
+        <li class="social-item">
+          <a class="social-link linkedin" href="./images/icon-linkedin.png"></a>
+        </li>
+        <li class="social-item">
+          <a class="social-link youtube" href="./images/icon-youtube.png"></a>
+        </li>
+        <li class="social-item">
+          <a class="social-link twitter" href="./images/icon-twitter.png"></a>
+        </li>
+        <li class="social-item">
+          <a class="social-link github" href="./images/icon-github.png"></a>
+        </li>
+      </ul>
+      <p>@2022 - Portfolio Design by Maria Albertina</p>
+    </footer>
+  </body>
 </html>
