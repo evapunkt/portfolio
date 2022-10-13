@@ -1,5 +1,9 @@
 :root {
-  --primary: red;
+  --primary: #d2b48c;
+  --spacing: 4rem;
+  --max-width: 960px;
+  --dk-grey: #333;
+  --img-width: 350px;
 }
 
 body {
@@ -62,7 +66,7 @@ section {
 footer {
   padding: var(--spacing);
   text-align: center;
-  background-color: #333;
+  background-color: var(--dk-grey);
   color: white;
 }
 
@@ -102,16 +106,6 @@ footer {
   .about-text {
     margin-left: var(--spacing);
   }
-  article {
-    flex-direction: row;
-    max-width: 960px;
-    margin: 0 auto var(--spacing);
-  }
-  .article-img {
-    margin-left: 2rem;
-    max-width: 350px;
-    object-fit: cover;
-  }
 }
 
 .about-img {
@@ -139,7 +133,20 @@ footer {
   --button-hover-color: var(--primary);
 }
 
-.article {
+@media (min-width: 800) {
+  article {
+    flex-direction: row;
+    max-width: 960px;
+    margin: 0 auto var(--spacing);
+  }
+  .article-img {
+    margin-left: 2rem;
+    max-width: 350px;
+    object-fit: cover;
+  }
+}
+
+article {
   display: flex;
   flex-direction: column-reverse;
 }
@@ -149,6 +156,8 @@ footer {
 }
 
 .contact {
+  position: relative;
+  margin-top: 100px;
   text-align: center;
 }
 
