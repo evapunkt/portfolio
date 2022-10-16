@@ -11,7 +11,7 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial narrow, Helvetica, sans-serif;
 }
 
 header {
@@ -25,7 +25,7 @@ header {
 
 h1 {
   margin-bottom: var(--spacing);
-  font-size: 5vw;
+  font-size: 4vw;
   font-weight: bold;
   line-height: 1.4em;
   margin-bottom: 2rem;
@@ -98,6 +98,7 @@ footer {
   background-color: var(--primary);
   color: white;
   padding: var(--spacing);
+  display: block;
 }
 
 .about::after {
@@ -114,10 +115,6 @@ footer {
 .about-container {
   max-width: 960px;
   margin: 0 auto;
-}
-
-.about-img {
-  max-width: 350px;
 }
 
 @media (min-width: 800) {
@@ -140,6 +137,7 @@ footer {
     margin: 0 auto var(--spacing);
   }
 }
+
 
 .about-img {
   display: block;
@@ -185,6 +183,7 @@ article {
     margin: 0 auto var(--spacing);
   }
   .article-img {
+    display: block;
     margin-left: 2rem;
     max-width: 350px;
     object-fit: cover;
