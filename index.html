@@ -7,106 +7,172 @@
     <title>Eva Pointner</title>
     <link rel="stylesheet" href="./styles/reset.css" />
     <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./images/icons8-idee-64.png" />
   </head>
-
   <body>
-    <header class="neutral-theme">
-      <h1>
-        Hello! My name is 
-        <span style="color: #d2b48c">Eva Pointner</span>. I'm a Web Developer.
-      </h1>
-      <a class="header-link button" href="#about">Find out more</a>
+    <header class="header neutral-theme">
+      <nav>
+        <ul>
+          <div id="nav-div">
+            <li id="nav-about"><a href="#about">About</a></li>
+            <li id="nav-projects">
+              <a href="#projects">Projects</a>
+            </li>
+            <li id="nav-contacts"><a href="#contact">Contact</a></li>
+            <li id="theme"><a href="#">Change Theme</a></li>
+          </div>
+        </ul>
+      </nav>
+      <div class="header-content">
+        <h1 class="header-title">
+          Hello! My name is
+          <span style="color: #624154">Eva Pointner</span>.
+          <br />
+          I'm a Web Developer.
+        </h1>
+        <a class="header-link button" href="#about">Find out more</a>
+      </div>
     </header>
     <main>
       <section class="about primary-theme" id="about">
-        <h2>About Me</h2>
+        <h2>This is me!</h2>
         <div class="about-container">
           <img
-            src="./images/origami-birds.webp"
-            alt="Origami birds"
+            src="./images/this-is-me.jpg"
+            alt="Me with my late cat Businka on my shoulder"
             class="about-img"
           />
           <div class="about-text">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-              itaque corporis vel ex debitis vitae obcaecati tenetur
-              exercitationem suscipit voluptatem, nobis et officia quod in ad
-              illo eligendi consequatur fugiat?
+              Hello, this is me! My name is Eva Pointner, I am originally a
+              landscape architect with very, very varied interests. In the past
+              I have planned gardens, but I've also worked a lot with children
+              of all ages and knowledge transfer regardless of age. I am also on
+              a first-name-basis with most kinds of trees and am generally a
+              geek about botany.
+              <br />
+              In my free time, I like to teach myself Chinese and even though it
+              might seem like a weird comparison, learning to code feels a lot
+              like learning Chinese to me. There definitely is an appeal in
+              learning things you never expected to learn, so everything that
+              works feels like a big accomplishment.
+              <br />
+              I also like to craft all kinds of things. Right now I'm fixated on
+              Origami, but I can feel embroidery coming up next.
+              <br />
+              One of my best friends has been bugging me about how I should
+              become a developer for the past three years now and now that I'm
+              looking for a career change, I have given in and loved (almost)
+              every minute of it. She's been practicing her smug face ever
+              since.
+              <br />
             </p>
-            <a class="button" href="#">My resume</a>
+            <a class="button" href="#projects">My resume</a>
           </div>
         </div>
-        <blockquote>"It does not matter how slowly you go as long as you do not stop."</blockquote>
+        <blockquote>
+          "It does not matter how slowly you go <br />
+          as long as you do not stop."
+        </blockquote>
         <cite>Confucius</cite>
       </section>
 
-      <section class="projects neutral-theme">
+      <section class="projects neutral-theme" id="projects">
         <h2>Projects</h2>
         <article>
           <div class="article-text">
-            <h3>Project Title</h3>
+            <h3>My little terrarium</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
-              maiores nihil soluta ad at laborum error, quas quaerat quis!
-              Perferendis facilis pariatur libero quas neque magnam quisquam
-              optio quasi itaque
+              This was the very first project I did for the Frontend Foxes. My
+              struggles at the beginning have turned out to be a misplaced curly
+              bracket, which I've been told is very common, so I guess I made a
+              good first effort to get the first mistakes out of the way.
+              <br />
+              Enjoy playing around with the plants in my terrarium and placing
+              them where you like them best.
             </p>
-            <a href="" class="button">See it live</a>
-            <a href="" class="button">Fork it on Github</a>
+            <a
+              href="https://evapunkt.github.io/my-virtual-terrarium/"
+              class="button"
+              >See it live</a
+            >
+            <a
+              href="https://github.com/evapunkt/my-virtual-terrarium"
+              class="button"
+              >Fork it on Github</a
+            >
           </div>
           <img
-            src="./images/origami-birds.webp"
-            alt="project"
+            src="./images/my-terrarium.png"
+            alt="a digital terrarium with plants placed inside of it"
             class="article-img"
           />
         </article>
 
         <article>
           <div class="article-text">
-            <h3>Project Title</h3>
+            <h3>My first personal website</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
-              maiores nihil soluta ad at laborum error, quas quaerat quis!
-              Perferendis facilis pariatur libero quas neque magnam quisquam
-              optio quasi itaque
+              This is actually the very first project I did in a day-long
+              workshop with the
+              <a href="https://female-coders.at/">Female Coders Linz</a> a
+              couple of months ago. Please ignore the nonsensical text, I had
+              not prepared any content and it was then that I found out that
+              Lorem ipsum text generators exist that mimic Donald Trump.
+              <br />
+              I am still quite proud of the styling and the overall aesthetic.
+              And my creative quotes.
             </p>
-            <a href="" class="button">See it live</a>
-            <a href="" class="button">Fork it on Github</a>
+            <a
+              href="https://evapunkt.github.io/my-personal-website/"
+              class="button"
+              >See it live</a
+            >
+            <a
+              href="https://github.com/evapunkt/my-personal-website"
+              class="button"
+              >Fork it on Github</a
+            >
           </div>
           <img
-            src="./images/origami-birds.webp"
-            alt="project"
+            src="./images/my-personal-website.png"
+            alt="a picture of the header of the website saying 'I am a cookie'"
             class="article-img"
           />
         </article>
 
         <article>
           <div class="article-text">
-            <h3>Project Title</h3>
+            <h3>My next project?</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
-              maiores nihil soluta ad at laborum error, quas quaerat quis!
-              Perferendis facilis pariatur libero quas neque magnam quisquam
-              optio quasi itaque
+              Since I have no more finished projects to show, have a
+              complimentary picture of my cat Jennie, who is also a certified
+              Frontend Fox by now, the first feline developer of our cohort.
+              (And also because it is illegal to have only pictures of one of
+              your two children on your website.)
             </p>
-            <a href="" class="button">See it live</a>
-            <a href="" class="button">Fork it on Github</a>
+            <a href="" class="button">Sadly can't see her live</a>
+            <a href="" class="button">Nothing to fork here</a>
           </div>
           <img
-            src="./images/origami-birds.webp"
-            alt="project"
+            src="./images/jennie.png"
+            alt="my cat Jennie"
             class="article-img"
           />
         </article>
       </section>
 
-      <section class="contact primary-theme">
+      <section class="contact primary-theme" id="contact">
         <h2>Contact</h2>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium
-          commodi laboriosam fugiat in labore, nobis officiis aut fuga rem
-          architecto porro numquam vero minus quas ipsa voluptatem dignissimos
-          aliquam magni.
+          For further questions, suggestions or complaints (or job offers)
+          please don't hesitate. Get in touch, we'll have a blast.
         </p>
         <a href="mailto:eva_pointner@gmx.at" class="button">Let's talk</a>
       </section>
@@ -114,19 +180,24 @@
     <footer>
       <ul class="social">
         <li class="social-item">
-          <a class="social-link linkedin" href="./images/icon-linkedin.png">LinkedIn</a>
+          <a
+            class="social-link youtube"
+            src="./images/icon-youtube.png"
+            href="https://www.youtube.com/channel/UCnGr1Jw9uBHTbPzuGrkF9hA"
+            >Youtube</a
+          >
         </li>
         <li class="social-item">
-          <a class="social-link youtube" href="./images/icon-youtube.png">Youtube</a>
-        </li>
-        <li class="social-item">
-          <a class="social-link twitter" href="./images/icon-twitter.png">Twitter</a>
-        </li>
-        <li class="social-item">
-          <a class="social-link github" href="./images/icon-github.png">Github</a>
+          <a
+            class="social-link github"
+            href="https://github.com/evapunkt"
+            src="./images/icon-github.png"
+            >Github</a
+          >
         </li>
       </ul>
       <p>@2022 - Portfolio Design by Maria Albertina</p>
     </footer>
   </body>
 </html>
+<script src="script.js"></script>
