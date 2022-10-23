@@ -1,7 +1,7 @@
 :root {
   --primary: #533747;
   --secondary: #ae847e;
-  --dk-grey: #333;
+  --dk-grey: #2E3033;
   --max-width: 960px;
   --spacing: 4rem;
   --img-width: 350px;
@@ -315,8 +315,40 @@ article {
   justify-content: end;
 }
 
+a {
+  text-decoration: none;
+}
+
+nav a {
+  padding: 0.5em 1em;
+}
+
+#theme a:hover,
+#theme a:focus {
+  border: 1px solid #fff;
+  background-color: var(--button-color);
+  color: var(--button-hover-color);
+}
+
+#theme a {
+  background-color: #fff;
+  color: #7a2640;
+}
+
+#nav-projects,
+#nav-contact {
+  display: none;
+}
+
+@media (min-width: 800px) {
+  #nav-projects,
+  #nav-contact {
+    display: block;
+  }
+}
+
 .dark-theme {
-  background: #333;
+  background: #2E3033;
   color: #fff;
 }
 
